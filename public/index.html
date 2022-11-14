@@ -4,28 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
     <title>Affirm</title>
    <link href="input.css" rel="stylesheet">
+   <link href="header.css" rel="stylesheet">
+   <link href="/src/style.css" rel="stylesheet">
+
 </head>
 <body>
     <section>
     <header class="container mx-auto   w-[70%] m-auto justify-between flex">
-      <div> <nav >
-            <img class="w-24 my-10 rounded-md" src="https://images.unsplash.com/photo-1522139137660-4248e04955b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" alt=""/>
+      <div> <nav to="/">
+            <img class=" cursor-pointer w-24 my-10 rounded-md" src="https://images.unsplash.com/photo-1522139137660-4248e04955b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" alt=""/>
         </nav></div> 
         <div>
         <div class="mt-7 flex justify-end gap-4 ">
-           <nav class="bg-blue-500  py-1 px-3 rounded-sm text-white">Find Care</nav>
-           <nav class="bg-green-900  py-1 px-3 rounded-sm text-white"> Donate</nav>
-           <input type="search" name="search" placeholder="search your site" class="py-1 px-2 border-blue-500 border-2 rounded-sm"/>
+           <nav class="bg-blue-500  py-1 px-3 rounded-sm text-white cursor-pointer " to="/"><i class="fa fa-map-marker"></i> FIND CARE</nav>
+           <nav class="bg-green-900  py-1 px-3 rounded-sm text-white cursor-pointer" to="/"> DONATE</nav>
+           <div class="relative"><input type="search" name="search" placeholder="search your site..." class="  py-1 px-2 border-blue-500 border-2 rounded-sm"  />
+    </div>
         </div>
-        <div class="mt-4 flex justify-around gap-3 text-[#012d01] font-semibold">
-            <nav>ABOUT </nav>
-             <nav>SEXUAL & REPRODUCTIVE HEALTH</nav>
-              <nav>ADOLESCENT HEALTH </nav>
-              <nav>OTHER INTATIVES </nav>
-              <nav>STAY INFORMED </nav>
-        </div></div>
-    </header></section>
+        <div class="mt-4 flex justify-around gap-3  font-semibold text-[#1f3b21] ">
+            <nav class=" cursor-pointer "  to="/">ABOUT <i class="fa fa-angle-down"></i> </nav>
+             <nav class="cursor-pointer" to="/">SEXUAL & REPRODUCTIVE HEALTH <i class="fa fa-angle-down"></i></nav>
+              <nav class="cursor-pointer" to="/">ADOLESCENT HEALTH <i class="fa fa-angle-down"></i> </nav>
+              <nav class="cursor-pointer" to="/">OTHER INTATIVES </nav>
+              <nav class="cursor-pointer" to="/">STAY INFORMED <i class="fa fa-angle-down"></i> </nav>
+        </div>
+    </div>
+    </header>
+</section>
+    <section class="hero-section">
+  <div> 
+    <h1 >Care You Deserve</h1>
+    <h5>High-Quality health services regardless </h5>
+    <button class="text-white bg-blue-500 py-1 px-3 rounded-sm ">Learn More</button>
+    </div></section>
+    <section class="py-12 ">
+          <h3 class="text-center text-2xl text text-[#1f3b21] font-bold ">Statistics That Matter</h3>
+<div class="flex flex-wrap w-[60%] m-auto  items-center text-center my-14 gap-4 flex-col md:flex-row">
+<div class="  object-contain w-[17.5%] m-auto h-52">
+    <img class="w-[70%] rounded-[50%] items-center m-auto" src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt=""/>
+    <h2 class="counter font-bold text-4xl my-3">55</h2>
+    <h5>Health center located across Arizona</h5>
+</div>
+<div class=" object-contain w-[17.5%]  m-auto h-52">
+    <img class="w-[70%] rounded-[50%] items-center m-auto" src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt=""/>
+    <h2 class="counter font-bold text-4xl  my-3">10</h2>
+    <h5>Out of Arizona's 15 countries receiving Title X services</h5>
+</div>
+<div class=" w-[17.5%]  object-contain m-auto h-52 ">
+    <img class="w-[70%] rounded-[50%] items-center m-auto" src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt=""/>
+    <h2 class="counter font-bold text-4xl  my-3">30,000</h2>
+    <h5>Individuals receiving sexual  and reproductive health  services per year (per-pandemic average)</h5>
+</div>
+<div class="w-[17.5%] m-auto h-52">
+    <img class="w-[70%] rounded-[50%] items-center m-auto" src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt=""/>
+    <h2 class="counter font-bold text-4xl  my-3">490</h2>
+    <h5>Chlamydia infections  prevented annually for Arizonans</h5>
+</div>
+</div>
+<div></div>
+
+
+
+
+
+    </section>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+       <script src="jquery.counterup.min.js"></script>
+       <script>
+        jQuery(document).ready(function($){
+            $('.counter').counterUp({
+    delay: 20,
+    time: 1000
+});
+        });
+       </script>
 </body>
 </html>
